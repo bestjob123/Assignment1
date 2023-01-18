@@ -79,8 +79,10 @@ public class GirlCharacter extends Character{
 	}
 	@Override
 	public void goOut() {
-		
-		if(charm>=0&&charm<100) {
+		if(charm==0) {
+			System.out.println("너무 안꾸미시는 거 아닌가요?");
+		}
+		else if(charm>=0&&charm<100) {
 			System.out.println("매력지수 100미만 동메달");
 		} else if(charm >= 100 && charm<500) {
 			System.out.println("매력지수 500미만 은메달");
