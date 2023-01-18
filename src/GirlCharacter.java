@@ -11,7 +11,7 @@ public class GirlCharacter extends Character{
 	public void hairMakeup() {
 		isHairMakeup = true;
 		if(isHairMakeup) {
-			System.out.println("머리손질을 합니다. 매력도 +10");
+			System.out.println("미용실에서 머리 손질을 합니다. 매력도 +10");
 			charm +=10;
 			System.out.println("매력도는"+this.charm +"입니다.");
 		}
@@ -20,7 +20,7 @@ public class GirlCharacter extends Character{
 	public void makeup() {
 		isMakeup = true;
 		if(isMakeup) {
-			System.out.println("메이크업을 합니다. 매력도 + 15");
+			System.out.println("샵에서 메이크업을 합니다. 매력도 + 15");
 			charm +=15;
 			System.out.println("매력도는"+this.charm+"입니다.");
 		}
@@ -29,7 +29,7 @@ public class GirlCharacter extends Character{
 	public void dress() {
 		isDressed = true;
 		if(!isHairMakeup) {
-			System.out.println("옷을 꾸며서 입습니다. 매력도 + 20");
+			System.out.println("여자 옷가게에서 옷을 꾸며서 입습니다. 매력도 + 20");
 			charm += 20;
 			System.out.println("매력도는"+this.charm+"입니다.");
 		}else if(isMakeup) {
@@ -41,7 +41,7 @@ public class GirlCharacter extends Character{
 	@Override
 	public void deit() {
 		if(!isHairMakeup&&!isMakeup&&!isDressed) {
-			System.out.println("다이어트를 합니다 매력도 +30");
+			System.out.println("다이어트를 합니다. 날씬해지기 위해 샐러드를 먹습니다. 매력도 +30");
 			charm +=30;
 			System.out.println("매력도는"+this.charm+"입니다.");
 		}else {
@@ -82,10 +82,10 @@ public class GirlCharacter extends Character{
 		
 		if(charm>=0&&charm<100) {
 			System.out.println("매력지수 100미만 동메달");
-		} else if(charm >= 100 && charm<300) {
-			System.out.println("매력지수 300미만 은메달");
-		} else if(charm>=300 && charm <500) {
-			System.out.println("매력지수 300미만 금메달");
+		} else if(charm >= 100 && charm<500) {
+			System.out.println("매력지수 500미만 은메달");
+		} else if(charm>=300 && charm <800) {
+			System.out.println("매력지수 800미만 금메달");
 		} else { System.out.println("매력지수 충만 패션스타완성");
 		}
 	}
