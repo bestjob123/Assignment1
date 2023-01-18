@@ -8,14 +8,19 @@ public class Application {
 		Character ch = new Character();
 		Character girlch = new GirlCharacter();
 		Character boych = new BoyCharacter();
-
+		boolean d;
+		
+		
 		while(true) {
 			System.out.println("====남녀 캐릭터를 골라주세요.====");
 			System.out.println("1. 성별무관");
 			System.out.println("2. 여자캐릭터");
 			System.out.println("3. 남자캐릭터");
+			System.out.println("4. 랜덤으로 정하기");
 			System.out.println("9. 프로그램종료");
 			int a = sc.nextInt();
+			if(a==4) { a=(int) (Math.random()*3) +1;
+				System.out.println(a+"(이)가 선택되셨습니다.");}
 
 			if(a==1) {
 				while(true) {
