@@ -28,7 +28,7 @@ public class BoyCharacter extends Character{
 	public void dress() {
 		isDressed = true;
 		if(!isHairMakeup) {
-			System.out.println("남자가 옷가게에서 옷을 꾸며서 입습니다. 매력도 + 20");
+			System.out.println("남자가 남자옷가게에서 옷을 꾸며서 입습니다. 매력도 + 20");
 			charm += 20;
 			System.out.println("매력도는"+this.charm+"입니다.");
 //		}else if(isMakeup) {

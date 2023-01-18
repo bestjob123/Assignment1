@@ -29,7 +29,7 @@ public class GirlCharacter extends Character{
 	public void dress() {
 		isDressed = true;
 		if(!isHairMakeup) {
-			System.out.println("여자 옷가게에서 옷을 꾸며서 입습니다. 매력도 + 20");
+			System.out.println("여자 옷가게 roam girls 에서 옷을 꾸며서 입습니다. 매력도 + 20");
 			charm += 20;
 			System.out.println("매력도는"+this.charm+"입니다.");
 		}else if(isMakeup) {
@@ -41,7 +41,7 @@ public class GirlCharacter extends Character{
 	@Override
 	public void deit() {
 		if(!isHairMakeup&&!isMakeup&&!isDressed) {
-			System.out.println("다이어트를 합니다. 날씬해지기 위해 샐러드를 먹습니다. 매력도 +30");
+			System.out.println("최고의 성형은 다이어트입니다. 다이어트를 합니다. 날씬해지기 위해 샐러드를 먹습니다. 매력도 +30");
 			charm +=30;
 			System.out.println("매력도는"+this.charm+"입니다.");
 		}else {
