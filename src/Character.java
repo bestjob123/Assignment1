@@ -84,4 +84,5 @@ public class Character {
 		} else { System.out.println("매력지수 충만 패션스타완성");
 		}
 	}
+	
 }

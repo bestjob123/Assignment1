@@ -48,35 +48,35 @@ public class GirlCharacter extends Character{
 			System.out.println("다른일을 하면서 다이어트를 할 수 없습니다. 다른일을 모두 멈추세요.");
 		}
 	}
-	@Override
-	public void stopHairMakeup() {
-		if(isHairMakeup ) {
-		isHairMakeup = false;	
-			
-		System.out.println("머리손질을 멈춥니다.");
-	}else {
-		System.out.println("머리손질을 멈출일이 없습니다.");
-	}
-		}
-	@Override
-	public void stopMakeup() {
-		if(isMakeup) {
-		isMakeup = false;
-		System.out.println("메이크업을 지웁니다.");
-	} else {
-		System.out.println("메이크업을 지울일이 없습니다.");
-	}
-	
-	}
-	@Override
-	public void undress() {
-		if(isDressed) {
-			isDressed = false;
-			System.out.println("옷을 벗습니다.");
-		} else {
-			System.out.println("옷을 벗을일이 없습니다.");
-		}
-	}
+//	@Override
+//	public void stopHairMakeup() {
+//		if(isHairMakeup ) {
+//		isHairMakeup = false;	
+//			
+//		System.out.println("머리손질을 멈춥니다.");
+//	}else {
+//		System.out.println("머리손질을 멈출일이 없습니다.");
+//	}
+//		}
+//	@Override
+//	public void stopMakeup() {
+//		if(isMakeup) {
+//		isMakeup = false;
+//		System.out.println("메이크업을 지웁니다.");
+//	} else {
+//		System.out.println("메이크업을 지울일이 없습니다.");
+//	}
+//	
+//	}
+//	@Override
+//	public void undress() {
+//		if(isDressed) {
+//			isDressed = false;
+//			System.out.println("옷을 벗습니다.");
+//		} else {
+//			System.out.println("옷을 벗을일이 없습니다.");
+//		}
+//	}
 	@Override
 	public void goOut() {
 		if(charm==0) {
@@ -85,9 +85,9 @@ public class GirlCharacter extends Character{
 		else if(charm>=0&&charm<100) {
 			System.out.println("매력지수 100미만 동메달");
 		} else if(charm >= 100 && charm<500) {
-			System.out.println("매력지수 500미만 은메달");
+			System.out.println("매력지수 500미만 은메달 패션센스가 있으신데요");
 		} else if(charm>=300 && charm <800) {
-			System.out.println("매력지수 800미만 금메달");
+			System.out.println("매력지수 800미만 금메달 공주님완성");
 		} else { System.out.println("매력지수 충만 패션스타완성");
 		}
 	}

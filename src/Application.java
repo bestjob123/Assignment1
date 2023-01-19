@@ -75,9 +75,12 @@ public class Application {
 					int no = sc.nextInt();
 
 					switch(no) {
-					case 1 : girlch.hairMakeup();break;
-					case 2 : girlch.makeup();break;
-					case 3 : girlch.dress();break;
+					case 1 : girlch.hairMakeup();
+					break;
+					case 2 : girlch.makeup();
+					break;
+					case 3 : girlch.dress();
+					break;
 					case 4 : girlch.deit();break;
 					case 5 : girlch.stopHairMakeup();break;
 					case 6 : girlch.stopMakeup();break;
