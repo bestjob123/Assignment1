@@ -48,35 +48,35 @@ public class GirlCharacter extends Character{
 			System.out.println("다른일을 하면서 다이어트를 할 수 없습니다. 다른일을 모두 멈추세요.");
 		}
 	}
-//	@Override
-//	public void stopHairMakeup() {
-//		if(isHairMakeup ) {
-//		isHairMakeup = false;	
-//			
-//		System.out.println("머리손질을 멈춥니다.");
-//	}else {
-//		System.out.println("머리손질을 멈출일이 없습니다.");
-//	}
-//		}
-//	@Override
-//	public void stopMakeup() {
-//		if(isMakeup) {
-//		isMakeup = false;
-//		System.out.println("메이크업을 지웁니다.");
-//	} else {
-//		System.out.println("메이크업을 지울일이 없습니다.");
-//	}
-//	
-//	}
-//	@Override
-//	public void undress() {
-//		if(isDressed) {
-//			isDressed = false;
-//			System.out.println("옷을 벗습니다.");
-//		} else {
-//			System.out.println("옷을 벗을일이 없습니다.");
-//		}
-//	}
+	@Override
+	public void stopHairMakeup() {
+		if(isHairMakeup ) {
+		isHairMakeup = false;	
+			
+		System.out.println("머리손질을 멈춥니다.");
+	}else {
+		System.out.println("머리손질을 멈출일이 없습니다.");
+	}
+		}
+	@Override
+	public void stopMakeup() {
+		if(isMakeup) {
+		isMakeup = false;
+		System.out.println("메이크업을 지웁니다.");
+	} else {
+		System.out.println("메이크업을 지울일이 없습니다.");
+	}
+	
+	}
+	@Override
+	public void undress() {
+		if(isDressed) {
+			isDressed = false;
+			System.out.println("옷을 벗습니다.");
+		} else {
+			System.out.println("옷을 벗을일이 없습니다.");
+		}
+	}
 	@Override
 	public void goOut() {
 		if(charm==0) {
