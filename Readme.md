@@ -7,4 +7,4 @@
 # 4.커뮤니케이션다이어그램
 <img src="comdiagram.jpg" width="200%" height="100%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
 
-# 5.클래스다이어그램 <img src="classdiagram.jpg" width="200%" height="100%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+# 5.클래스다이어그램 <img src="클래스다이어그램.png" width="200%" height="100%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
