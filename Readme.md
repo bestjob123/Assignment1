@@ -5,6 +5,10 @@
 # 3.프로그램 요구사항
 게임을 시작하기 전 미니게임으로 독심술게임을 만들어 수당을 가져가는 프로그램을 만들어 게임을 플레이할 수있냐 없냐를 결정할 수 있게해줄 수 있어야 한다. 머리손질 하다가 옷 입힐수 없고 화장하다 옷 입힐 수 없고  옷 꾸미다가 다이어트할수 없고 다이어트하다가 다른 것을 할 수 없다. 단 머리 손질하면서 화장할수는 있다.
 # 4.커뮤니케이션다이어그램
-<img src="comdiagram.jpg" width="200%" height="100%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+<img src="1.png" width="200%" height="100%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+<img src="2.png" width="200%" height="100%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+<img src="3.png" width="200%" height="100%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+<img src="4.png" width="200%" height="100%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+<img src="5.png" width="200%" height="100%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
 
 # 5.클래스다이어그램 <img src="클래스다이어그램.png" width="200%" height="100%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
