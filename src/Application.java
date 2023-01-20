@@ -14,7 +14,7 @@ public class Application {
 		int c = sc.nextInt();
 		if(b==c) { 
 			work=true;
-			System.out.println(b+"을 맞춰 게임 진행합니다.");}
+			System.out.println(b+"을 맞춰 토큰을 얻어 게임 진행합니다.");}
 		else { 
 			work= false;
 			System.out.println("맞추지 못해 수당을 얻지 못해 이번판은 게임을 즐길 수 없습니다.");
